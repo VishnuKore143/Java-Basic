@@ -1,5 +1,3 @@
-package academy.learnprogramming;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -76,14 +74,14 @@ public class Main {
         //Challenge Solution
         double myFirstDoubleValue = 20.00d;
         double mySecondDoubleValue = 80.00d;
-        double myValueTotal = (myFirstDoubleValue+mySecondDoubleValue)*100.00d;//right to left calculation
+        double myValueTotal = (myFirstDoubleValue+mySecondDoubleValue)*100.00d;//right to left calculation because of ()
         System.out.println("My Total is : "+ myValueTotal);
 
          myValueTotal = myValueTotal % 40.0d;
         System.out.println("My value remainder is "+myValueTotal);
 
         boolean myBooleanValue = true;
-//        myBooleanValue = (myBooleanValue==0) ? true: false;
+//        myBooleanValue = (myBooleanValue==0) ? true: false; //This is also valid 
         myBooleanValue = myValueTotal==0;
         System.out.println(myBooleanValue);
 
