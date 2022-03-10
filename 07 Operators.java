@@ -28,21 +28,21 @@ public class Main {
         if (topScore!=100){
             System.out.println("You got the high score!");
         }
-        if (topScore>100){
+        if (topScore>100){ // gretter than
             System.out.println("You got the high score!");
         }
-        if (topScore>=100){
-//            System.out.println("You got the high score!");
+        if (topScore>=100){ // gretter than or equal to
+           System.out.println("You got the high score!");
         }
-        if (topScore<100){
+        if (topScore<100){ // less than
             System.out.println("You got the high score!");
         }
-        if (topScore<=100){
+        if (topScore<=100){// less than or equal to
             System.out.println("You got the high score!");
         }
 
         int secondTopScore = 60;
-        if (topScore>secondTopScore && topScore<100){
+        if (topScore>secondTopScore && topScore<100){  //logical && (AND) operator 
             System.out.println("Grater than second top score less than 100.");
         }
 
@@ -71,7 +71,28 @@ public class Main {
         System.out.println("Age of client is "+isEighteenOrOver);
         System.out.println();
 
+        
         //Challenge Solution
+        /* (this is multi line comment)
+        Let's test what you have learned about Operators.
+
+        1. Create a double variable with a value of 20.00.
+
+        2. Create a second variable of type double with the value 80.00.
+
+        3. Add both numbers together and multiply by 100.00.
+
+        4. Use the remainder operator to figure out what the remainder from the result of the operation in step 3 and 40.00.
+        We used the modulus or remainder operator on ints in the course, but we can also use it on a double.
+
+        5. Create a boolean variable that assigns the value true if the remainder in \#4 is , or false if its not zero.
+
+        6. Output the boolean variable.
+
+        7. Write an if-then statement that displays a message "Got some remainder" if the boolean in step 5 is not true.
+        Don't be surprised if you see output for this step, where you might expect it not to show. I'll explain it in my solution.
+        */
+    
         double myFirstDoubleValue = 20.00d;
         double mySecondDoubleValue = 80.00d;
         double myValueTotal = (myFirstDoubleValue+mySecondDoubleValue)*100.00d;//right to left calculation because of ()
