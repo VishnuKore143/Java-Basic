@@ -11,7 +11,5 @@ The method should not return any value, and it needs to print out:-
 
 • "zero" if the parameter number is equal to 0
 
-
-
 NOTE: The checkNumber method needs to be defined as public static like we have been doing so far in the course.
 
