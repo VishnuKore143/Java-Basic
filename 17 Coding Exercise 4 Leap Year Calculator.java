@@ -1,3 +1,4 @@
+// This program calculates if a leap year is one or not 
 public class Main {
     public static boolean isLeapYear(int year){
         if(year < 1 && year > 9999){
