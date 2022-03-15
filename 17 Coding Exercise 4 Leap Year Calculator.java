@@ -1,5 +1,3 @@
-package academy.learnprogramming;
-
 public class Main {
     public static boolean isLeapYear(int year){
         if(year < 1 && year > 9999){
