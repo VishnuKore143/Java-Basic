@@ -7,6 +7,10 @@ public class ForLoop {
         for (int i=8; i>=2; i--) {
             //System.out.println("10,000 at "+i+"% interest "+calculateInterest(10000.0,i));
         }
+     
+        public static double calculateInterest(double amount, double interestRate){
+        return (amount*(interestRate/100));
+    }
 
         //isPrime Method
         int count = 0;
@@ -21,9 +25,6 @@ public class ForLoop {
             }
 
         }
-    }
-    public static double calculateInterest(double amount, double interestRate){
-        return (amount*(interestRate/100));
     }
 
     public static boolean isPrime(int n){
