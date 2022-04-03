@@ -1,5 +1,3 @@
-package Challenges;
-
 public class Sum3And5Challenge {
     public static void main(String[] args) {
         int count = 0;
