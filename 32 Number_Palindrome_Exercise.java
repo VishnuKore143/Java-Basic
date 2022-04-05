@@ -1,5 +1,3 @@
-package Udemy;
-
 public class Number_Palindrome_Exercise {
     public static void main(String[] args) {
 
