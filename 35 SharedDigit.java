@@ -1,5 +1,3 @@
-package Udemy;
-
 public class SharedDigit {
     public static void main(String[] args) {
         System.out.println(hasSharedDigit(12, 23));
@@ -8,7 +6,6 @@ public class SharedDigit {
         System.out.println(hasSharedDigit(12, 93));
         System.out.println(hasSharedDigit(77, 17));
     }
-
 
     public static boolean hasSharedDigit(int firstNumber, int secondNumber) {
         if ((firstNumber >= 10 && firstNumber <= 99) && (secondNumber >= 10 && secondNumber <= 99)) {
